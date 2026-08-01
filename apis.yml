@@ -1,7 +1,29 @@
 aid: robotiq
 name: Robotiq
-description: Robotiq is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Robotiq designs and manufactures collaborative robotics hardware and software
+  — adaptive grippers, vacuum grippers, force-torque sensors, wrist cameras, and
+  pre-engineered workcells for palletizing, machine tending, screwdriving, and
+  assembly. Founded in 2008 and headquartered in Lévis, Quebec, Canada, the
+  company helps manufacturers automate repetitive tasks by embedding task
+  intelligence ("Intelligence Made Physical") directly into end-of-arm tooling
+  for platforms such as Universal Robots, FANUC CRX, and Omron/Techman. Robotiq
+  publishes open-source ROS drivers and a C++ gripper SDK through its GitHub
+  organization, but it does not operate a public web/REST API — this profile
+  captures its developer-facing identity, open-source SDKs, and domain security
+  posture rather than a hosted API surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://robotiq.com/hubfs/favicon-32x32-1e60fbc9121451d8bf09f1a45967594c.png
 url: https://raw.githubusercontent.com/api-evangelist/robotiq/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,48 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Robotics
+- Automation
+- Manufacturing
+- Collaborative Robots
+- Grippers
+- End-of-Arm Tooling
+- Palletizing
+- Machine Tending
+- Sensors
+- Hardware
 apis: []
+common:
+- type: Website
+  url: https://robotiq.com
+- type: Documentation
+  url: https://blog.robotiq.com/knowledge
+- type: Support
+  url: https://robotiq.com/support
+- type: Blog
+  url: https://blog.robotiq.com
+- type: BlogRSS
+  url: https://blog.robotiq.com/rss.xml
+- type: GitHubOrganization
+  url: https://github.com/robotiq
+- type: PrivacyPolicy
+  url: https://robotiq.com/privacy-policy
+- type: Packages
+  url: packages/robotiq-packages.yml
+- type: SDKs
+  url: packages/robotiq-packages.yml
+- type: DomainSecurity
+  url: security/robotiq-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

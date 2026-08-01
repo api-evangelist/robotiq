@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/robotiq
+note: >-
+  Robotiq ships no web/REST API client libraries on public package registries
+  (npm, PyPI, Maven, NuGet, RubyGems, crates.io, pkg.go.dev). Its first-party
+  developer libraries are open-source hardware control/driver SDKs published
+  through the Robotiq GitHub organization for controlling grippers, sensors,
+  and ROS-based robot integrations.
+packages:
+- language: c++
+  registry: github
+  name: robotiq/grippers
+  url: https://github.com/robotiq/grippers
+  install: git clone https://github.com/robotiq/grippers
+  official: true
+  description: Robotiq gripper C++ SDK (alpha) for controlling adaptive and vacuum grippers.
+- language: c++
+  registry: github
+  name: robotiq/ros
+  url: https://github.com/robotiq/ros
+  install: git clone https://github.com/robotiq/ros
+  official: true
+  description: Collection of ROS packages for controlling Robotiq hardware (grippers, sensors).
+- language: python
+  registry: github
+  name: robotiq/tactile_sensors
+  url: https://github.com/robotiq/tactile_sensors
+  install: git clone https://github.com/robotiq/tactile_sensors
+  official: true
+  description: Getting-started library for the Robotiq TSF-85 tactile sensors.
