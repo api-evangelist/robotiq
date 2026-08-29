@@ -12,6 +12,17 @@ description: >-
   organization, but it does not operate a public web/REST API — this profile
   captures its developer-facing identity, open-source SDKs, and domain security
   posture rather than a hosted API surface.
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
